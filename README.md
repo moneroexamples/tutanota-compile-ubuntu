@@ -4,7 +4,7 @@ client so that you can host it yourself. Once you compile it,
 you can host the client yourself, on your localhost for example. This has many benefits. First, the client loads faster as it only fetches files
 from your localhost. Second, its safer. You host it yourself, so there is no reason to worry that suddenly the client code suddenly changes and adds some back-doors or something.  Third, you can modify it to your liking.  
 
-The following instructions are based on those avaliable at [tutao/tutanota](https://github.com/tutao/tutanota/#building-and-running-your-own-tutanota-web-client).
+The following instructions are based on those available at [tutao/tutanota](https://github.com/tutao/tutanota/#building-and-running-your-own-tutanota-web-client).
 
 ```bash
 # first we need to install package manager for nodejs called nmp
@@ -42,12 +42,13 @@ firefox /opt/tuta/index.html
 ```
 
 ## What it has to do with Monero?
-Well, both [Tutanota](https://tutanota.com/) and [Monero](https://getmonero.org) take privacy of their users seriously.
+
+Well, both [Tutanota](https://tutanota.com/) and [Monero](https://getmonero.org) take privacy of their users seriously. Also, maybe soon, one will be able to [donate](http://tutanota.uservoice.com/forums/237921-general/suggestions/9968298-accept-monero-xmr-for-donations) to Tutanota using Monero.
 
 ## How can you help?
 
 Constructive criticism, corrections of the website are always welcome.  
-They can be made through gihub.
+They can be made through github.
 
 Some Monero are also welcome:
 ```
