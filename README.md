@@ -35,7 +35,7 @@ firefox build/index.html
 
 #Now you can copy the build folder to whereever you want it to be.
 #For example, I have it /opt
-sudo mv build/ /top/tuta
+sudo mv build/ /opt/tuta
 
 # now you can run the tutanota client as follows
 firefox /opt/tuta/index.html
