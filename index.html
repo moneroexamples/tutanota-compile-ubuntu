@@ -20,7 +20,7 @@
 
     <section class="main-content">
       <h1>
-<a id="compile-tutanota-client-on-ubuntu-1414" class="anchor" href="#compile-tutanota-client-on-ubuntu-1414" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compile Tutanota client on Ubuntu 14.14</h1>
+<a id="compile-tutanota-29-client-on-ubuntu-1404" class="anchor" href="#compile-tutanota-29-client-on-ubuntu-1404" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compile Tutanota 2.9 client on Ubuntu 14.04</h1>
 
 <p>The example shows how to compile the open sourced Tutanota
 client so that you can host it yourself. Once you compile it,
@@ -55,20 +55,23 @@ sudo ln -s /usr/bin/nodejs /usr/local/bin/node
 <span class="pl-c"># check if the works example</span>
 firefox build/index.html
 
+
+
 <span class="pl-c">#Now you can copy the build folder to whereever you want it to be.</span>
-<span class="pl-c">#For example, I have it /opt</span>
-sudo mv build/ /opt/tuta
+<span class="pl-c">#For example, I have it /opt/tuta</span>
+sudo mkdir -v /opt/tuta
+sudo mv -v build/ /opt/tuta
 
 <span class="pl-c"># now you can run the tutanota client as follows</span>
-firefox /opt/tuta/index.html</pre></div>
+firefox /opt/tuta/build/index.html</pre></div>
 
 <h2>
-<a id="what-it-has-to-do-with-monero" class="anchor" href="#what-it-has-to-do-with-monero" aria-hidden="true"><span class="octicon octicon-link"></span></a>What it has to do with Monero?</h2>
+<a id="what-it-has-to-do-with-monero" class="anchor" href="#what-it-has-to-do-with-monero" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What it has to do with Monero?</h2>
 
 <p>Well, both <a href="https://tutanota.com/">Tutanota</a> and <a href="https://getmonero.org">Monero</a> take privacy of their users seriously. Also, maybe soon, one will be able to <a href="http://tutanota.uservoice.com/forums/237921-general/suggestions/9968298-accept-monero-xmr-for-donations">donate</a> to Tutanota using Monero.</p>
 
 <h2>
-<a id="how-can-you-help" class="anchor" href="#how-can-you-help" aria-hidden="true"><span class="octicon octicon-link"></span></a>How can you help?</h2>
+<a id="how-can-you-help" class="anchor" href="#how-can-you-help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How can you help?</h2>
 
 <p>Constructive criticism, corrections of the website are always welcome.<br>
 They can be made through github.</p>
@@ -78,13 +81,6 @@ They can be made through github.</p>
 <pre><code>48daf1rG3hE1Txapcsxh6WXNe9MLNKtu7W7tKTivtSoVLHErYzvdcpea2nSTgGkz66RFP4GKVAsTV14v6G3oddBTHfxP6tU
 </code></pre>
 
-<!-- begin wwww.htmlcommentbox.com -->
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1445941420020");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
-
-
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/moneroexamples/tutanota-compile-ubuntu">Monero Examples</a> is maintained by <a href="https://github.com/moneroexamples">moneroexamples</a>.</span>
 
@@ -93,6 +89,6 @@ They can be made through github.</p>
 
     </section>
 
-
+  
   </body>
 </html>
