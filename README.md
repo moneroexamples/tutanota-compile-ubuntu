@@ -1,4 +1,4 @@
-# Compile Tutanota client on Ubuntu 14.14
+# Compile Tutanota 2.9 client on Ubuntu 14.04
 The example shows how to compile the open sourced Tutanota
 client so that you can host it yourself. Once you compile it,
 you can host the client yourself, on your localhost for example. This has many benefits. First, the client loads faster as it only fetches files
@@ -33,12 +33,15 @@ sudo ln -s /usr/bin/nodejs /usr/local/bin/node
 # check if the works example
 firefox build/index.html
 
+
+
 #Now you can copy the build folder to whereever you want it to be.
-#For example, I have it /opt
-sudo mv build/ /opt/tuta
+#For example, I have it /opt/tuta
+sudo mkdir -v /opt/tuta
+sudo mv -v build/ /opt/tuta
 
 # now you can run the tutanota client as follows
-firefox /opt/tuta/index.html
+firefox /opt/tuta/build/index.html
 ```
 
 ## What it has to do with Monero?
